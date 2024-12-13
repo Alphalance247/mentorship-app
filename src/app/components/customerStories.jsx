@@ -71,7 +71,7 @@ const CustomerStories = () => {
             return (
               <div
                 key={i}
-                className="px-6 mb-28 max-lg:px-4 max-md:w-[100%] max-md:px-1"
+                className="px-6 mb-28 max-lg:px-4 max-lg:mb-14 max-md:w-[100%] max-md:px-1 max-md:mb-12"
               >
                 <p className="text-center text-[#4f4f4f] text-2xl font-normal font-Open_Sans leading-loose max-lg:text-base max-md:text-base max-md:tracking-[-.8px]">
                   {item?.heading}
