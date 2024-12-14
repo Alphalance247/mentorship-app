@@ -4,7 +4,7 @@ const GetInTouch = () => {
     <section className="bg-[#F5F0F0]">
       <div className="px-6 w-[500px] mx-auto py-[5rem] max-md:w-full">
         <p className="text-center text-black text-xl font-bold font-Open_Sans leading-normal mb-2">
-          Stay Updated with MissonAbroad
+          Stay Updated with AbroadWithPurpose
         </p>
         <p className="text-center text-black/60 text-[15px] font-normal font-Open_Sans leading-tight mb-6">
           Subscribe to our newsletter for the latest updates

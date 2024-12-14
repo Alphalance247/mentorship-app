@@ -21,10 +21,10 @@ const Header = ({ handleNavClick, showMobileMenu, setShowMobileMenu }) => {
             return (
               <ul
                 key={items?.id}
-                className="inline-flex cursor-pointer max-lg:flex max-lg:flex-col max-lg:pt-12 max-lg:items-center max-sm:pt-4"
+                className="inline-flex cursor-pointer  max-lg:flex max-lg:flex-col max-lg:pt-12 max-lg:items-center max-sm:pt-4"
               >
                 <li
-                  className="text-[#4f4f4f] cursor-pointer px-4 text-sm font-semibold font-Open_Sans"
+                  className="text-[#4f4f4f] cursor-pointer hover:transition-all hover:text-lg hover:duration-1000 hover:text-[#AF52DE] px-4 text-sm font-semibold font-Open_Sans"
                   onClick={() => handleNavClick(i, items?.scrollSection)}
                 >
                   {items?.name}
